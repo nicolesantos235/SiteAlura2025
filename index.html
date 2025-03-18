@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho Alura Nicole e </title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #f1f1f1;
+        }
+
+        header {
+            background-color: #2c2a54;
+            color: #f1f1f1;
+            padding: 20px 0;
+            border-bottom: 2px solid #6a4c9c;
+            position: relative;
+            border-radius: 30px;
+        }
+
+        .profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;  /* Altera para 50% para tornar a imagem circular */
+    margin-bottom: 20px
+        }
+
+        .presentation-box {
+            padding: 30px;
+            background-color: #4a2a6f;
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+        .presentation-box h1 {
+            font-size: 2rem;
+        }
+
+        .presentation-box p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .book-card {
+            background-color: #333;
+            color: white;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 500px; /* Tamanho aumentado das imagens */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .book-card h5 {
+            font-size: 1.5rem;
+            color: #d6a3f2; /* Cor lilás para os títulos */
+            margin-top: 15px;
+        }
+
+        .book-card p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        .btn-primary {
+            background-color: #d6a3f2;
+            border-color: #d6a3f2;
+        }
+
+        h2 {
+            color: #d6a3f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container text-center">
+        <img src="./nicole.jpg"alt="Foto Nicole" class="profile-image">
+        <div class="presentation-box">
+            <h1>Nicole</h1>
+            <p class="lead">Meu nome é Nicole estudo no colégio Nadir no Paraná e gosto muito de livros, tenho grande interesse em um dia produzir minha propria obra e vende-la para o mundo todo.</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="text-center">Meus Livros Favoritos</h2>
+
+        <div class="row">
+            <!-- Livro 1 - "A Menina que Roubava Livros" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./a_menina_que_roubava_livros__book_cover__by_luccebluofficial_dec8lik-fullview.jpg" alt="Capa do Livro A Menina que Roubava Livros">
+                    <div class="card-body">
+                        <h5 class="card-title">A Menina que Roubava Livros</h5>
+                        <p class="card-text">Liesel Meminger, uma jovem alemã durante a Segunda Guerra Mundial, encontra consolo nos livros enquanto vive em um mundo devastado pela guerra e pelo regime nazista.</p>
+                        <a href="./pagina01.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livro 2 - "O Morro dos Ventos Uivantes" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./morro fos ventos uivantes.jpg"class="card-img-top" alt="Capa do Livro O Morro dos Ventos Uivantes">
+                    <div class="card-body">
+                        <h5 class="card-title">O Morro dos Ventos Uivantes</h5>
+                        <p class="card-text">Uma história de amor trágico entre Heathcliff e Catherine, marcada por ciúmes, vingança e uma paixão arrebatadora, em um cenário sombrio e isolado.</p>
+                        <a href="./pagina02.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livro 3 - "Orgulho e Preconceito" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./orgulho e preconceito.jpg"card-img-top" alt="Capa do Livro Orgulho e Preconceito">
+                    <div class="card-body">
+                        <h5 class="card-title">Orgulho e Preconceito</h5>
+                        <p class="card-text">A história de Elizabeth Bennet e sua relação com o orgulhoso Mr. Darcy, abordando temas como classe social, casamento e preconceito em uma sociedade do século XIX.</p>
+                        <a href="./pagina03.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Livro 4 - "O Hobbit" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./hobbit.jpg" class="card-img-top" alt="Capa do Livro O Hobbit">
+                    <div class="card-body">
+                        <h5 class="card-title">O Hobbit</h5>
+                        <p class="card-text">Bilbo Bolseiro embarca em uma jornada inesperada, ajudando um grupo de anões a recuperar seu reino perdido, enfrentando dragões, trolls e outras criaturas fantásticas.</p>
+                        <a href="./pagina04.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livro 5 - "A Culpa é das Estrelas" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="/a culpa e das estrelas.jpg"card-img-top" alt="Capa do Livro A Culpa é das Estrelas">
+                    <div class="card-body">
+                        <h5 class="card-title">A Culpa é das Estrelas</h5>
+                        <p class="card-text">Uma história emocionante sobre o amor entre dois adolescentes com câncer, explorando questões sobre a vida, a morte e a busca por sentido em meio ao sofrimento.</p>
+                        <a href="./pagina05.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livro 6 - "1984" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./1984.jpg" class="card-img-top" alt="Capa do Livro 1984">
+                    <div class="card-body">
+                        <h5 class="card-title">1984</h5>
+                        <p class="card-text">Uma distopia clássica que retrata um futuro totalitário, onde a liberdade individual e a verdade são subjugadas por um regime opressor.</p>
+                        <a href="./pagina06.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Livro 7 - "O Pequeno Príncipe" -->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./O-pequeno-principe---capa-azul.webp" class="card-img-top" alt="Capa do Livro O Pequeno Príncipe">
+                    <div class="card-body">
+                        <h5 class="card-title">O Pequeno Príncipe</h5>
+                        <p class="card-text">Um dos livros mais traduzidos do mundo, que nos fala sobre a inocência da infância, o poder da imaginação e a importância das coisas simples da vida.</p>
+                        <a href="./pagina07.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livro 8 - "O Grande Gatsby" (alterado para "O Hobbit")-->
+            <div class="col-md-4">
+                <div class="card book-card">
+                    <img src="./O grande Gasty.jpg"class="card-img-top" alt="Capa do Livro O Grande Gatsby">
+                    <div class="card-body">
+                        <h5 class="card-title">O Grande Gatsby</h5>
+                        <p class="card-text">A história de Jay Gatsby, um milionário que tenta reconquistar o amor perdido de Daisy Buchanan durante a década de 1920, explorando temas de riqueza, ilusão e tragédia.</p>
+                        <a href="./pagina08.html" target="_blank" class="btn btn-primary">Minha opinião</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container py-5 text-center">
+        <p>© Produzido por Nicole e Isabela</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
